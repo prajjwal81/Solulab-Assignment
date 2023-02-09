@@ -1,0 +1,99 @@
+.maindiv {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+}
+.img {
+  width: 30%;
+}
+
+.diane {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #242831;
+}
+.mail {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30%;
+  color: #6b6b6b;
+}
+.partitionDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9%;
+}
+.divInsidePartitionDiv {
+  text-align: center;
+  width: 12vw;
+}
+.textInsidePartitionDiv {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #6b6b6b;
+}
+.numberInsidePartitionDiv {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  color: #6b6b6b;
+  /* identical to box height, or 28px */
+}
+
+.btn {
+  border: 0.5px solid #6b6b6b;
+  background-color: white;
+  margin-top: 10%;
+  width: 80%;
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 230%;
+
+  color: #242831;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.subheading {
+  margin-right: 35%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 140%;
+  margin-top: 21%;
+  color: #242831;
+  margin-bottom: 11%;
+}
+.btn2 {
+  width: 80%;
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 300%;
+  margin-bottom: 4%;
+
+  color: #242831;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

@@ -1,0 +1,41 @@
+.smallText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  color: #6b6b6b;
+}
+.largeText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #242831;
+}
+.columnStyle {
+  border-bottom: 0.5px solid rgb(107, 107, 107);
+  margin-right: 4%;
+  padding-bottom: 2%;
+}
+
+.subheading {
+  margin-top: 5%;
+  background: rgb(248, 248, 248);
+  width: fit-content;
+  margin-bottom: 5%;
+}
+
+.whiteDivInsideTheRootCanal {
+  background-color: white;
+
+  margin-bottom: 3%;
+  height: 8em;
+  text-align: center;
+  padding: 3%;
+}

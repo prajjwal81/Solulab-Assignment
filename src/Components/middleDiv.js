@@ -1,0 +1,45 @@
+import React from "react";
+import Styles from "./middleDiv.module.css";
+import img from "../Images/img.png";
+import { Button } from "react-bootstrap";
+
+function MiddleDiv() {
+  return (
+    <div className={Styles.maindiv}>
+      <img src={img} alt="" className={Styles.img} />
+      <div className={Styles.diane}>Diane Cooper</div>
+      <div className={Styles.mail}>diane.cooper@example.com</div>
+      <div className={Styles.partitionDiv}>
+        <span
+          className={Styles.divInsidePartitionDiv}
+          style={{ borderRight: "0.5px solid black" }}
+        >
+          <div className={Styles.numberInsidePartitionDiv}>15</div>
+          <div className={Styles.textInsidePartitionDiv}>Past</div>
+        </span>
+        <span className={Styles.divInsidePartitionDiv}>
+          <div className={Styles.numberInsidePartitionDiv}>02</div>
+          <div className={Styles.textInsidePartitionDiv}>Upcoming</div>
+        </span>
+      </div>
+      <Button variant="light" className={Styles.btn}>
+        Send Message
+      </Button>{" "}
+      <div className={Styles.subheading}>Files / Documents</div>
+      <Button variant="light" className={Styles.btn2}>
+        Check UP Results.pdf
+      </Button>
+      <Button variant="light" className={Styles.btn2}>
+        Check UP Results.pdf
+      </Button>
+      <Button variant="light" className={Styles.btn2}>
+        Medical Prescription.pdf
+      </Button>
+      <Button variant="light" className={Styles.btn2}>
+        Dental X-Ray Results.pdf
+      </Button>
+    </div>
+  );
+}
+
+export default MiddleDiv;
