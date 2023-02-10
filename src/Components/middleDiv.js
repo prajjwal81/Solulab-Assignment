@@ -6,7 +6,15 @@ import { Button } from "react-bootstrap";
 function MiddleDiv() {
   return (
     <div className={Styles.maindiv}>
-      <img src={img} alt="" className={Styles.img} />
+      <img
+        src={
+          img
+            ? img
+            : "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+        }
+        alt=""
+        className={img ? Styles.img2 : Styles.img}
+      />
       <div className={Styles.diane}>Diane Cooper</div>
       <div className={Styles.mail}>diane.cooper@example.com</div>
       <div className={Styles.partitionDiv}>

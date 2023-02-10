@@ -9,6 +9,11 @@
   height: 40px;
   margin-top: 4vh;
 }
+.img2 {
+  height: 40px;
+  margin-top: 4vh;
+  border-radius: 50%;
+}
 
 .name {
   height: 8.5vh;

@@ -4,7 +4,7 @@ import "./App.css";
 import Sidenav from "./Components/Sidenav";
 import MiddleDiv from "./Components/middleDiv";
 import RightDiv from "./Components/RightDiv";
-// how can we increase the size of bootstrap icon ?
+
 function App() {
   return (
     <div>
